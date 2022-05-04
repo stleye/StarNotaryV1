@@ -2,5 +2,8 @@
 
 Steps to create this project
 
-- truffle unbox webpack (It creates a lot of boilerplate code, set up directories, structures, etc)
+1 - truffle unbox webpack (It creates a lot of boilerplate code, set up directories, structures, etc)
 
+2 - truffle develop (It starts a local Ethereum Network, check in what port is running and connect to it with Metamask, the chainId can be obtained running await web3.eth.getChainId();)
+
+3 - 
