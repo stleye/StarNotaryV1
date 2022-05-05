@@ -20,4 +20,14 @@ contract("StarNotary", accounts => {
         assert.equal(await instance.starName.call(), "Sun");
     });
 
+    it("can change owner", async () => {
+        const instance = await StarNotary.deployed();
+        const firstOwner = accounts[0];
+        const secondOwner = accounts[1];
+        await instance.claimStar({from: firstOwner});
+        assert.equal(await instance.starOwner.call(), firstOwner);
+        await instance.claimStar({from: secondOwner});
+        assert.equal(await instance.starOwner.call(), secondOwner);
+    })
+
 });
