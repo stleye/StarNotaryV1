@@ -6,4 +6,7 @@ Steps to create this project
 
 2 - truffle develop (It starts a local Ethereum Network, check in what port is running and connect to it with Metamask, the chainId can be obtained running await web3.eth.getChainId();)
 
-3 - 
+
+3 - we delete all the code that is not needed (ConvertLib.sol, MetaCoin.sol, metacoin.js, TestMetaCoin.sol)
+
+
