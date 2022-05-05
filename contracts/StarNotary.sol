@@ -1,14 +1,14 @@
 // SPDX-License-Identifier: GPL-3.0
 pragma solidity >=0.6.0 <0.9.0;
 
-contract StartNotary {
+contract StarNotary {
 
     string public starName;
     address public starOwner;
 
     event starClaimed(address owner);
 
-    constructor() pulic {
+    constructor() public {
         starName = "No name yet";
     }
 
