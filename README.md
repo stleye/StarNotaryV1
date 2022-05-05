@@ -9,4 +9,6 @@ Steps to create this project
 
 3 - we delete all the code that is not needed (ConvertLib.sol, MetaCoin.sol, metacoin.js, TestMetaCoin.sol)
 
+4 - compile (in the console, inside truffle)
 
+5 - test (in the console, inside truffle)
